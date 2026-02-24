@@ -6,6 +6,9 @@ on:
     branches:
       - dev
       - master
+  push:
+    branches:
+      - copilot/**
 
 jobs:
   release:
